@@ -1,0 +1,23 @@
+Package: bbrefscraper
+Title: Scraper for basketball-reference.com
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Tamas Koncz",
+           role = c("aut", "cre"),
+           email = "t.koncz@gmail.com")
+Description: This package enables an easy interface from R
+    to scrape data from different parts of basketball-reference.com
+License: What license it uses
+URL: https://github.com/tomiaJO/bbrefscraper
+Depends: 
+    R (>= 3.5.1)
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat,
+    roxygen2,
+    knitr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+Imports: 
+    purrr
